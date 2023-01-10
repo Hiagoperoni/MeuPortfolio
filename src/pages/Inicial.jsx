@@ -41,6 +41,7 @@ class Inicial extends Component {
               <p>NodeJS: Iniciante</p>
             </div>
           </section>
+        </div>
           <div className='redesSociais'>
             <a rel="noreferrer" href="https://www.linkedin.com/in/hiago-peroni/" target="_blank">
               <img src={ linkedin } alt="linkedin" className='logo'/>
@@ -52,7 +53,6 @@ class Inicial extends Component {
               <img src={ github } alt="github" className='logo'/>
             </a>
           </div>
-        </div>
         <Footer />
       </div>
     )
